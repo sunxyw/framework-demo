@@ -1,0 +1,16 @@
+{
+    "name": "sunxyw/frameworker",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sunxyw\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sunxyw",
+            "email": "git@sunxyw.xyz"
+        }
+    ],
+    "require": {}
+}

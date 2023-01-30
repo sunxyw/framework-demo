@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "33eaf9479fdba276a5ee9416cbc241b0",
+    "packages": [
+        {
+            "name": "sunxyw/frameworker",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../framework",
+                "reference": "e23f012ac8d2c9ab20a6547bfd23949bf628b2ec"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sunxyw\\Framework\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "sunxyw",
+                    "email": "git@sunxyw.xyz"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sunxyw/frameworker": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

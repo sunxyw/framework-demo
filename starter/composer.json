@@ -1,0 +1,27 @@
+{
+  "name": "sunxyw/framework-demo",
+  "type": "project",
+  "authors": [
+    {
+      "name": "sunxyw",
+      "email": "git@sunxyw.xyz"
+    }
+  ],
+  "require": {
+    "sunxyw/frameworker": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "serve": "php -S 127.0.0.1:8181 -t public"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../framework"
+    }
+  ]
+}
